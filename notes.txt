@@ -1,0 +1,70 @@
+[30 May]
+[Management - boss to design team]
+Boss: Design team, we will have a meeting at 2pm tomorrow to decide on the final design of the new product series.
+Director: Sure, boss, I’ll ask them to be ready.
+>>> [Task] Design Team Meeting, 2pm, 31 May
+
+[DD to Design Team]
+DD: Designers, there’s a meeting at 2pm tomorrow to decide the final design.
+Designers: Ok, director.
+
+[31 May]
+[Meeting - design team]
+Director: From all the drafts, I’ve selected the nominated 20 drafts. The designers of these 20 drafts have 5 minutes each to showcase your draft and explain about your design idea. Mr and Mrs Yap will take the decision to select the final 8 designs to be launched at the end of July. 
+
+Boss: The concept of this series is ‘Young and Flowering’, make sure you boost your designs on this concept. I look forward to your showcase.
+
+[Management - Design Director to Production Dicrector]
+DD: Product, the design draft has been sent to your email. The drive is updated as well. Please start to proceed and get the prototype done by 7 June. 
+PD: Okay, buddy.
+>>> [Task] Prototype of ‘Young and Flowering’, 11:59pm, 7 June 
+
+[Production Team]
+Director: Guys, as the boss asks to get the prototype done by 7 June. I shall set our internal due date on 4 June, is it alright?
+The team: Yes boss
+Director: Ok, group 1 will be focusing on product 1 to 4, group 2 will be focusing on product 5 to 8. All the details are in the document, check it out.
+>>> [Task] Group 1 due, 11:59pm, 4 June
+>>> [Task] Group 2 due, 11:59pm, 4 June
+
+[7 June]
+[Boss to management]
+Boss: Team, the prototype is done. We would have a meeting with the design and production team to finalise the new series. Let’s meet at 10am tomorrow. Get everything ready. 
+Marketing manager: Boss, do we need to join?
+Boss: Only you.
+Marketing manager: Okay.
+>>> [Task] Meeting with boss, marketing manager, design team, and production team, 10am, 8 June
+
+[8 June]
+[Meeting]
+PT: These are the prototypes of the new series. Is there anything to add on?
+DT: (Jinny) I think the diamond of ‘Lily’ can be bigger. It is 2.6cm x 2.6cm on my draft but I only see 2.3cm x 2.3cm on your prototype.
+PT: That could be the measurement error. We would modify it.
+DT: (Amy) My high-heel includes 7cm and 9cm. 
+PT: Okay, we would add the 9cm one later.
+Boss: I think the colour of Karena’s sneakers should be lighter, like mint-green instead of army green.
+DT: (Karena) Yes, but not as light as mint green. Just one tone lighter than army green, like #7d8a24.
+PT: Okay, got it. Is there any other problem?
+DT: No, thanks.
+PT: Alright, we would get it done by 14 June.
+
+[Production team after meeting]
+Director: Group 1 and 2, modify the prototype based on what they said just now and let me check. I’ll submit it to both the designer and boss once you’ve sent it to me. Hopefully we can get it done by 10 June since the factory is quite busy, they might not be able to proceed with our orders asap.
+>> [Task] Modification of prototype, 11:59pm ,10 June
+
+[9 June]
+[Production team]
+Team: Director, we have done all the changes. Please check.
+Director: Thanks, team.
+
+[Product Director to Management chat]
+PD: Boss, the finalised prototype is completed. Kindly go through them. Design director, please check it as well and tell me asap if there’s any extra changes.
+DD: All well from my side.
+Boss: Good, start ordering from the factory. Marketing can start drafting the launching.
+MM: Okay.
+
+[Production Team]
+Director: Well done, guys. We can send orders to the factory now. It will take them 3 weeks. Hopefully everything goes well and we can get the product by the end of June.
+
+[Marketing Team]
+MM: Team, here we’ve got a new job to do. For the ‘Young and Flowering’ series, we have to start drafting the tagline, promotion, ads and so on. I’ve created a gantt chart for the task of each of you. Kindly complete your own task by the due date. We will have a progression tracking meeting on 14 June, at 2pm.
+>>> [Task] Meeting, 2pm, 14 June
