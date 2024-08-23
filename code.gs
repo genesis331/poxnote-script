@@ -15,6 +15,7 @@ function dev(){
   // writeToSheet(testTasks);
   // appSheetSuggestTasks(testSummary);
   // checkDue();
+  // gatherDocs();
 }
 
 function checkDue(){
@@ -147,8 +148,29 @@ function gatherTexts(){
   return texts;
 }
 
+function gatherDocs(){
+  var folder = DriveApp.getFolderById(inputFolderId);
+  var list = [];
+  var files = folder.getFiles();
+  var texts = "";
+  while (files.hasNext()){
+    file = files.next();
+    if (file.getMimeType() === 'application/vnd.google-apps.document') {
+      var document = DocumentApp.openById(file.getId());
+      var body = document.getBody();
+      var text = body.getText();
+      texts = texts + text;
+    }
+    if (file.getMimeType() === 'text/plain') {
+      var txt = file.getBlob().getDataAsString();
+      texts = texts + txt;
+    }
+  }
+  return texts;
+}
+
 function summarizeTexts(){
-  const prompt = "Summarize the following texts in one paragraph: " + gatherTexts();
+  const prompt = "Summarize the following texts in one paragraph: " + gatherDocs();
   const output = callGemini(prompt);
   return output;
 }
